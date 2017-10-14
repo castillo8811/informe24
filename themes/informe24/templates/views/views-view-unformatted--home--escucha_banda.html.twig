@@ -1,0 +1,24 @@
+<div id="escucha-banda" class="mt30 col-sm-12">
+  <div id="footer-spotify" class="text-center text-white g-green">
+    <div class="footer-spotify-inner">
+      <span class="logo-spotify pull-left"></span><a class="pull-left" href="https://open.spotify.com/user/masmusicabanda/playlist/3kfzaA34te0x9UMpvwqQcb?fo=1&utm_medium=share&utm_source=desktop&success=1#_=_" onclick="return !window.open(this.href, 'Spotify', 'width=640,height=580')">Lo mejor de música banda en nuestro Playlist, ¡escúchalo ahora!</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div>
+  {% for row in rows %}
+    {%
+    set row_classes = [
+    default_row_class ? 'views-row',
+    'panel',
+    'panel-default',
+    ]
+    %}
+
+    <div class="radioListItem col-md-6 col-xs-12">
+      {{ row.content }}
+    </div>
+  </div>
+  <div class="clear"></div>
+  {% endfor %}
+</div>
