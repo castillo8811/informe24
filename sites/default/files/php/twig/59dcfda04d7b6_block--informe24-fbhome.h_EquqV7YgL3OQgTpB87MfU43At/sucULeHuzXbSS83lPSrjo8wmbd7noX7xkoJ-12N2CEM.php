@@ -46,14 +46,14 @@ class __TwigTemplate_db9b5dd45a8fa3cc447544b66f694bb5d80a9d047bb7d7d9fef0b95e4af
          data-small-header=\"false\"
          data-adapt-container-width=\"true\" data-width=\"300\" data-hide-cover=\"false\" data-show-facepile=\"true\">
         <blockquote cite=\"https://www.facebook.com/MasMusicaBanda/\" class=\"fb-xfbml-parse-ignore\"><a
-                    href=\"https://www.facebook.com/MasMusicaBanda/\">Más música banda</a></blockquote>
+                    href=\"https://www.facebook.com/MasMusicaBanda/\">Informe24</a></blockquote>
     </div>
 </div>
 
 <div id=\"tw-widget\" class=\"mt50\">
     <div class=\"tw-widget-head\">@informe24mexico</div>
     <div class=\"tw-page\">
-        <a class=\"twitter-timeline\" data-tweet-limit=\"2\" href=\"https://twitter.com/informe24mexico\">Más Música Banda</a>
+        <a class=\"twitter-timeline\" data-tweet-limit=\"2\" href=\"https://twitter.com/informe24mexico\">Informe24</a>
         <script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>
     </div>
 </div>";
@@ -85,14 +85,14 @@ class __TwigTemplate_db9b5dd45a8fa3cc447544b66f694bb5d80a9d047bb7d7d9fef0b95e4af
          data-small-header=\"false\"
          data-adapt-container-width=\"true\" data-width=\"300\" data-hide-cover=\"false\" data-show-facepile=\"true\">
         <blockquote cite=\"https://www.facebook.com/MasMusicaBanda/\" class=\"fb-xfbml-parse-ignore\"><a
-                    href=\"https://www.facebook.com/MasMusicaBanda/\">Más música banda</a></blockquote>
+                    href=\"https://www.facebook.com/MasMusicaBanda/\">Informe24</a></blockquote>
     </div>
 </div>
 
 <div id=\"tw-widget\" class=\"mt50\">
     <div class=\"tw-widget-head\">@informe24mexico</div>
     <div class=\"tw-page\">
-        <a class=\"twitter-timeline\" data-tweet-limit=\"2\" href=\"https://twitter.com/informe24mexico\">Más Música Banda</a>
+        <a class=\"twitter-timeline\" data-tweet-limit=\"2\" href=\"https://twitter.com/informe24mexico\">Informe24</a>
         <script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>
     </div>
 </div>", "themes/informe24/templates/block--informe24-fbhome.html.twig", "/var/www/html/informe24/themes/informe24/templates/block--informe24-fbhome.html.twig");

@@ -1,10 +1,7 @@
-/**
- * Place your custom styles here.
- */
-
-a{
+a {
     text-decoration: none !important;
 }
+
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
     position: relative;
     min-height: 1px;
@@ -16,11 +13,11 @@ a{
     text-align: center !important;
 }
 
-#navbar{
+#navbar {
     left: 0;
     right: 0;
-    background-color:black;
-    z-index: 1000!important;
+    background-color: black;
+    z-index: 1000 !important;
     border: none;
 }
 
@@ -29,13 +26,11 @@ a{
     padding: 5px 15px;
 }
 
-#navbar-sticky-wrapper{
+#navbar-sticky-wrapper {
     background-color: black;
 }
 
-
-
-ul.menu{
+ul.menu {
     width: 75%;
 }
 
@@ -46,7 +41,7 @@ ul.menu{
 .navbar-nav > li a {
     color: #FFF !important;
     font-weight: bolder;
-    text-align: center  ;
+    text-align: center;
 }
 
 #stage {
@@ -60,7 +55,7 @@ ul.menu{
     box-shadow: 1px 2px 3px lightgrey;
 }
 
-#stage .nodelist-audiolink{
+#stage .nodelist-audiolink {
     width: 25%;
     float: right;
 }
@@ -76,26 +71,26 @@ ul.menu{
     font-size: 2.8rem !important;
 }
 
-#stage .stageInner .col-md-12{
+#stage .stageInner .col-md-12 {
     width: 40%;
     margin: 0 auto;
 }
 
-.nodeListItem{
+.nodeListItem {
     padding: 5px;
     margin-bottom: 15px;
 }
 
-.nodeListItem:hover{
+.nodeListItem:hover {
     background-color: lightgray;
     opacity: .8;
 }
 
-.nodeListItem:hover .nodelist-audiolink{
+.nodeListItem:hover .nodelist-audiolink {
     color: black;
 }
 
-.nodeListItemInner{
+.nodeListItemInner {
     box-shadow: 1px 2px 3px lightgrey;
     padding: 5px;
     min-height: 200px;
@@ -110,25 +105,26 @@ ul.menu{
 }
 
 .nodelist-title a {
-    color: #666666;  text-align: center;
+    color: #666666;
+    text-align: center;
     color: black;
     font-weight: bolder;
     font-size: 1.8rem !important;
 }
 
-.nodelist-autor a{
+.nodelist-autor a {
     font-size: 1.5rem;
     color: black;
     display: block;
     font-weight: bold;
 }
 
-.nodelist-autor .node-autor-name a{
+.nodelist-autor .node-autor-name a {
     color: dimgray;
     font-weight: normal;
 }
 
-.nodelist-audiolink{
+.nodelist-audiolink {
     background-color: red;
     width: 70%;
     text-align: center;
@@ -140,31 +136,32 @@ ul.menu{
     clear: both;
 }
 
-.nodeListItem .nodelist-audiolink{
+.nodeListItem .nodelist-audiolink {
     bottom: 15px;
     position: absolute;
     left: 0;
     right: 0;
 }
 
-#newsletter-subscription{
+#newsletter-subscription {
     background-color: darkred;
     color: white;
 }
 
-#newsletter-subscription .form-item{
-    float: left; width: 40%;
+#newsletter-subscription .form-item {
+    float: left;
+    width: 40%;
 }
 
-.form-item-mergevars-email label{
+.form-item-mergevars-email label {
     display: none;
 }
 
-.form-item-mergevars-fname, .form-item-mergevars-lname{
+.form-item-mergevars-fname, .form-item-mergevars-lname {
     display: none;
 }
 
-.form-submit{
+.form-submit {
     width: 220px;
     background-color: #0E5EA9;
     color: white;
@@ -172,29 +169,28 @@ ul.menu{
     margin-left: 20px;
 }
 
-#mailchimp-signup-subscribe-block-informe24-mc-form-error-message{
+#mailchimp-signup-subscribe-block-informe24-mc-form-error-message {
     display: block;
     clear: both;
     font-weight: bolder;
 }
 
-
-#block-informe24-footer ul{
+#block-informe24-footer ul {
     border-bottom: solid 1px lightgray;
     border-top: solid 1px lightgray;
     padding: 10px 0 10px 0;
 }
 
-#block-informe24-footer ul li{
+#block-informe24-footer ul li {
     display: inline-block;
     float: left;
     margin: 0 15px 0 0;
     font-weight: bold;
 }
 
-.field--name-user-picture img{border-radius:50%;}
-
-
+.field--name-user-picture img {
+    border-radius: 50%;
+}
 
 #bios .nodelist-title a {
     color: #FFF;
@@ -337,10 +333,34 @@ ul.menu{
 
 .node-author-section {
     padding: 10px;
-    border-top: 2px solid lightgrey;
-    border-bottom: 2px solid lightgrey;
     margin-bottom: 10px;
     font-size: 1.5rem;
+}
+
+.node-author-section-inner{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.node-author-section-inner img{
+    width: 70px;
+    margin-right: 15px;
+}
+
+.field--name-field-programa a{
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: dimgray;
+}
+
+.field--name-field-conductor a{
+    color: #000;
+}
+
+.node-title{
+    text-align: center;
+    color: #000;
 }
 
 .node-article-wrapper {
@@ -391,34 +411,6 @@ ul.menu{
     margin-top: 30px;
 }
 
-.view-display-id-biografias_glosario a {
-    margin: 10px 5px 20px 2px;
-    padding: 7px 11px;
-    border: solid 1px gray;
-    background-color: lightgray;
-    color: #000;
-    border-radius: 5px;
-    font-size: 2.5rem;
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    text-align: center;
-}
-
-.view-display-id-biografias_page h3 {
-    margin: 20px 0 0 0px;
-    font-size: 5rem;
-}
-
-.glossary-row-item {
-    padding: 15px 5px 4px 0px;
-    border-bottom: solid 1px lightgray;
-}
-
-.glossary-row-item a {
-    color: deepskyblue;
-}
-
 .contact-message-feedback-form label {
     display: none;
 }
@@ -462,11 +454,11 @@ ul.menu{
     padding-bottom: 20px;
 }
 
-#mailchimp-signup-subscribe-block-mmb-mc-form label {
+#mailchimp-signup-subscribe-block-informe24-form label {
     display: none;
 }
 
-#mailchimp-signup-subscribe-block-mmb-mc-form input[type="email"] {
+#mailchimp-signup-subscribe-block-informe24-form input[type="email"] {
     width: 66%;
     margin: 0 auto;
     border: solid 1px lightgray;
@@ -477,7 +469,7 @@ ul.menu{
     font-size: 1.8rem
 }
 
-#mailchimp-signup-subscribe-block-mmb-mc-form .form-submit {
+#mailchimp-signup-subscribe-block-informe24-form .form-submit {
     background-color: darkorange;
     text-align: center;
     margin: 0 auto;
@@ -496,18 +488,18 @@ ul.menu{
     margin: 20px;
 }
 
-#mailchimp-signup-subscribe-block-mmb-mc-form-error-message {
+#mailchimp-signup-subscribe-block-informe24-form-error-message {
     text-align: center;
     display: block;
     color: red;
     margin-bottom: 10px;
 }
 
-#edit-preview{
+#edit-preview {
     display: none;
 }
 
-#player-logo{
+#player-logo {
     position: absolute;
     display: block;
     overflow: hidden;
@@ -516,29 +508,31 @@ ul.menu{
     left: -2px;
 }
 
-#player-logo img{
+#player-logo img {
     width: 62px;
     height: auto;
 }
 
-#social-shares{
+#social-shares {
     height: 50px;
     left: 0;
     right: 0;
     z-index: 1000 !important;
+    margin-bottom: 10px;
 }
 
-#social-shares-inner{
+#social-shares-inner {
     margin: 0 auto;
+    float: none;
 }
 
-#social-shares-inner img{
+#social-shares-inner img {
     margin: 0 auto;
     display: block;
     margin-top: 10px;
 }
 
-#fb-share{
+#fb-share {
     width: 33%;
     height: 50px;
     background-color: darkblue;
@@ -547,7 +541,7 @@ ul.menu{
     float: left;
 }
 
-#tw-share{
+#tw-share {
     width: 33%;
     height: 50px;
     background-color: deepskyblue;
@@ -556,14 +550,14 @@ ul.menu{
     float: left;
 }
 
-#email-share{
+#email-share {
     width: 33%;
     height: 50px;
     background-color: darkred;
     float: left;
 }
 
-#whatsapp-share{
+#whatsapp-share {
     width: 33%;
     height: 50px;
     background-color: darkgreen;
@@ -572,13 +566,13 @@ ul.menu{
     float: left;
 }
 
-#social-shares a{
+#social-shares a {
     width: 100px;
     height: 70px;
     display: inline-block;
 }
 
-.node-head-text{
+.node-head-text {
     display: inline-block;
     font-size: 2rem;
 }
@@ -587,17 +581,17 @@ ul.menu{
     margin-bottom: 20px;
     list-style: none;
     border-radius: 4px;
-        margin-top: 10px;
+    margin-top: 10px;
     margin-right: 0 !important;
     padding: 0 !important;
 }
 
-#newsletter-subscription .banner{
+#newsletter-subscription .banner {
     max-height: 250px !important;
     overflow: hidden;
 }
 
-.radioListItem{
+.radioListItem {
     border-bottom: solid 2px lightgrey;
     padding-bottom: 19px;
 }
@@ -609,27 +603,22 @@ ul.menu{
     height: 100px;
 }
 
-.radio-info{
+.radio-info {
     margin: 0 0 0 6px;
 }
 
-.radio-info h3{
+.radio-info h3 {
     padding: 0;
     margin: 5px 0 0 0;
     font-size: 2rem;
 }
 
-.radio-info span{
+.radio-info span {
     margin-top: 10px;
     font-size: 1.8rem;
     display: block;
 }
 
-.radio-info a{
+.radio-info a {
     color: black;
-}
-
-#escucha-banda .footer-spotify-inner {
-    width: 100%;
-    margin: 0 auto;
 }

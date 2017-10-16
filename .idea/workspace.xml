@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77b88716-938a-4848-980c-7ed630542b5e" name="Default" comment="" />
+    <list default="true" id="77b88716-938a-4848-980c-7ed630542b5e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block--bare.html.twig_Sr-mOzUkCxKxiEqo8_XiADk6j/vXn-fd99KopvhuidiHvVi14Xiv-AHVKwLYymYZJOAfU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block--informe24-fbhome.h_EquqV7YgL3OQgTpB87MfU43At/FKx7M0AG4zzN1cMbA_8A-kAqPe2uaN83l_XRn2vSYS8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block--informe24-footer.h_5SFTpHPjK_Wz0brvu1no88GJG/LqhUbeQBZeb3XmQ7TaxBRlDbjpuknsWWnzwypWyeU4M.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block--mailchimp-signup-s_nenRdfwbiM2i7YNXFF11hQdbN/8eWelqoHLopgTmYccc9h2BcQxq4L4SAY40ljjS_Lyvc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block--page-title-block.h__RLtnwGvkcjvdKRAORY_T5Q3r/EzR5mNjV7B7pRIeiZzzqkj1lDYqKfVHnx5b4apOQX2s.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block--system-menu-block-_xWlJwWswkxDjlnUm8G4GgKHwT/PXgk4URfGnA9TOLQkbiF3dGTc_fQCBZgo2AhKZ4-77c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block--system-messages-bl_Fk1UJYZkJFHSpkjcy9dQdeZQ9/SYTJw-mWY8VwJl7lOytTb7Bv7u428zQQUGjYqpmMqy8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block--system.html.twig_dlHqIvudDP2MLjbN_s8eM6aEF/V_CCvX6tPuHyiMi02uYD89KLVAlEBmPdHnAaUwjbzU8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_block.html.twig__gtLXUo1auKx-IpZkX7zhQbhO/Gr-1U-CuzQ__68Fg5_3BFJUIBQMdHG00q-CXJXyLd34.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_container.html.twig_5BTMmNAEwUfKMnn0nY5cSvzx6/f4QFkUYKvhitT7rOebINvILHJrAit5Qs4u8IpQHeghA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_feed-icon.html.twig_DWWGvN3_AzP0NYeeMZNaY2sb2/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_feed-icon.html.twig_DWWGvN3_AzP0NYeeMZNaY2sb2/nkC7kOiUisurQxn1lDOkOw439GXnywIPY0Hktzy0-nk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_field.html.twig_M2yHyNwhjg3kxV-d9xifXvB-S/XcExo8CQYLvqVPBZEkycKZSyKIt84qTW1DIa14DZTb8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_form-element-label.html.t_DIpmQCenYQHI_tUMZQwPCwzHC/VFekqu1ajILSUAz9QPreY9kWVuRsR9Q-VuCETWzY4sQ.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_form-element.html.twig__O1tl93SvSAfV1NMLa6tqbN05/nupJ2NVyK0t-Rxy7Ad5DcEC6gzktLBAWtbnZPMJWlYc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_form.html.twig_lylD_x3JPUyvE03kL1dLO_WC2/PwhptUhaZ4GUDm8z8c3Wk7X0Ev5rMF7CRdtTAXvQDUg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_html.html.twig_rsiUr3Zh28NzKmlILshNpCY-S/zP50miexjS_GFQEy6NQnWYTgENgfDvjF3mydp4yWbFk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_image-formatter.html.twig_AG9p1XA43K3SaA_Bbjsmdfs5H/SQTvB8MBt10u-Eos75o4rcbQtqzQ_mhtg7g3LeD7m44.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_image-style.html.twig_Y_SRAeyJxvIgMORvUaMiF7zwu/btDy5U9FcvptGTCdRVJFUZ2QB26cwEe4u8VJ7hKXLrw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_image.html.twig_jpqqvH-aS3ULC7IXUijAtMVG1/bklKMnMBEKCoYMUqwQa4L4reuEfwiVDQv_Rr5xxl5Kw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_inline-template_T-xhV_TNNJ3iO7wKK2rml8iOw/qH7JgjuZxk7_pOGqRLTqfvFgFqXLELF-CRmvzp7fwTs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_inline-template_f9Mjrl2yf8Rq2zAr0n4lhwmFC/wOJ-SOU-1dQsax45mAnji2mtvGy5_umbUrKZMd5bb5k.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_input--button.html.twig_E77CoDeI4P2Trh291ZPHX-sqJ/622zgFrhEjptAgJ89lV2NaXyvUdH4-H4nUcJ-FMt554.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_input--form-control.html._GE0avVNfFtJODQ1RrNsMr1cSg/eO87--36E54wqX8CrJ_QFawgE8PWhGsRYEM2jWsmK_0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_input.html.twig_NmTWI6jrMOsxMQCXK2_Na-LCc/akrTm27uKgjV0hZNkuhu8ewDlCvcPvKPdUgW3fkpA5E.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_links.html.twig_DXxHCtqhFl2CwbBTgPdXpV4yl/saYHb5I7Xwl02OGh2MXYqRhl-wwn30H3GUZE3SL7fiw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_menu--main.html.twig_43FonNmWAA2AXRtwnT98LYj6c/jfRWNPBGWQcZmZOHPwiktTbHJfdnLJjTD7zmYv2GI5c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_menu--toolbar.html.twig_WkW4Xvnsoltze22d0BkrG1fBj/5GhMOFTAArwxQ9ULPRvdybgbfLDETKO74nP8DA5SazU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_page-title.html.twig_Ms_qSL2oZ4cfskuPi_ZqUoUAJ/W4kiehc_eS2ii3qoAk5i_o3QEizz7QvbYxpD3ZtvjYg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_page.html.twig_INjO4HZ8WwguE9LZ_lCgFFzit/OZQPgNYbazl48fLCkbwK3dhdBVF6Eq1KaRznERNIKn0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_pager.html.twig_o-YgNXVXMGKmxOXS71WDX-9F-/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_pager.html.twig_o-YgNXVXMGKmxOXS71WDX-9F-/faDxP3eKtQas0HWswkjE557AvDUtBCKvaV_k6C3dZvc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_region.html.twig_3yApZorNJjcBnDqUcEu8TRIcZ/p8k_iaNq5QYs79ap91ekAzL3MbrckEyRjZ5R9s7blcE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_toolbar.html.twig_TUjkWLHWnnhMtqfH8xgz_nceQ/jMixnE4zj2h_WhDjhoxCZFh2I7LwoMwqIbTsne8-swc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_user.html.twig_sdhtSKNCjap9XYX32AkhdSf6D/swbB_Ek5XrQy456QxgsnxIGi1zswNoDc6FGgrl1n0xI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_views-infinite-scroll-pag_g1VrSHnn5RBosD7v9Ciu5oKhV/IVZonPN2Sf8BQtUWk0VBHtchejy4M7thCcRsh2Jc32M.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_views-view-field.html.twi_B3IbirMFh5oJBx7D_VPJZPO6D/JpBVEJVA6YSomFWYwjd75uWSvWU0oLuSXj7dZ5zkYVg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_views-view-fields--home--_R3pdbh3QAB_9OJ9LFv6A525fI/5j9S81OHb99HG9kFy9Ws-V85MkKzDxCt_gD8MGIReUw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_views-view-fields--home--_fQx1KHele4-Wx7H3EtkSujQCg/8uCjVXYgk1Iss3Q_XLRmwb7-zEayzmWgqHf69FgyZGo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_views-view-unformatted--h_156kCKQbOcvrlnbvQpiZipJH1/9EVuelDx1yQAt4b0Nn2z8un1zmJdE5TdcKmAk9kPtpU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_views-view-unformatted--h_NY181IwCDCJUmC4MrEMqATyDA/QqcEYchYUw7It_J0YTaZpy7ZYCp4i-AjYKg2eCAPNlo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/59dcfda04d7b6_views-view.html.twig_cxxwyGZqX9jzCzwg-6NflpAXR/jYZ4u_H7iFcDrUKJUvXee4hSgGVy-hyljukIeCotvuo.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/informe24/css/responsive.css" afterPath="$PROJECT_DIR$/themes/informe24/css/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/informe24/css/style.css" afterPath="$PROJECT_DIR$/themes/informe24/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/informe24/templates/page.html.twig" afterPath="$PROJECT_DIR$/themes/informe24/templates/page.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--news_home.html.twig" afterPath="$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--news_home.html.twig" />
+    </list>
     <ignored path="informe24.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,18 +76,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/informe24/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.559415">
-              <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.29216152">
+              <caret line="520" column="23" selection-start-line="520" selection-start-column="23" selection-end-line="520" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="block--informe24-fbhome.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/informe24/templates/block--informe24-fbhome.html.twig">
+      <file leaf-file-name="node.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/informe24/templates/node/node.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="13" column="109" selection-start-line="13" selection-start-column="109" selection-end-line="13" selection-end-column="109" />
+            <state vertical-scroll-proportion="38.23077">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,18 +96,38 @@
       <file leaf-file-name="views-view-unformatted--home--news_home.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--news_home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+            <state vertical-scroll-proportion="-2.6842105">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views-view-fields--home--more_news_home.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--more_news_home.html.twig">
+      <file leaf-file-name="page.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/informe24/templates/page.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="35" />
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--article.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/informe24/templates/node--article.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.076923">
+              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--audio.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/informe24/templates/node--audio.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.263158">
+              <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -68,58 +136,8 @@
       <file leaf-file-name="views-view-fields--home--news_home.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--news_home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overrides.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/bootstrap/starterkits/less/less/overrides.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0877194">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helpers.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/informe24/css/helpers.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6538463">
-              <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="32.175438">
-              <caret line="4" column="16355" selection-start-line="4" selection-start-column="16253" selection-end-line="4" selection-end-column="16355" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views-view-fields--home--bios_home.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--bios_home.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views-view-fields--home--escucha_banda.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--escucha_banda.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -133,6 +151,9 @@
       <command text="drush cr" />
     </commandsHistory>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -140,8 +161,6 @@
         <option value="$PROJECT_DIR$/themes/informe24/informe24.starterkit.yml" />
         <option value="$PROJECT_DIR$/themes/informe24/informe24.info.yml" />
         <option value="$PROJECT_DIR$/themes/informe24/config/schema/informe24.schema.yml" />
-        <option value="$PROJECT_DIR$/themes/informe24/templates/page.html.twig" />
-        <option value="$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--news_home.html.twig" />
         <option value="$PROJECT_DIR$/modules/custom/newsletter_subscription/newsletter_subscription.module" />
         <option value="$PROJECT_DIR$/themes/informe24/templates/block--mailchimp-signup-subscribe-block.html.twig" />
         <option value="$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--more_news_home.html.twig" />
@@ -151,9 +170,13 @@
         <option value="$PROJECT_DIR$/themes/bootstrap/starterkits/less/less/overrides.less" />
         <option value="$PROJECT_DIR$/themes/informe24/css/helpers.css" />
         <option value="$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--more_news_home.html.twig" />
-        <option value="$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--news_home.html.twig" />
-        <option value="$PROJECT_DIR$/themes/informe24/css/style.css" />
         <option value="$PROJECT_DIR$/themes/informe24/templates/block--informe24-fbhome.html.twig" />
+        <option value="$PROJECT_DIR$/themes/informe24/css/responsive.css" />
+        <option value="$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--news_home.html.twig" />
+        <option value="$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--news_home.html.twig" />
+        <option value="$PROJECT_DIR$/themes/informe24/templates/page.html.twig" />
+        <option value="$PROJECT_DIR$/themes/informe24/templates/node--audio.html.twig" />
+        <option value="$PROJECT_DIR$/themes/informe24/css/style.css" />
       </list>
     </option>
   </component>
@@ -196,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,29 +309,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="informe24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="informe24" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="informe24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,6 +356,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,6 +364,11 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/informe24/templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -403,13 +413,12 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29765707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30085197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5042598" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -421,6 +430,7 @@
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -441,30 +451,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--more_news_home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/menu/menu--main.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/menu/menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--news_home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -521,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32304037">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54513067">
           <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,23 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.96912116">
           <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/node--article.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--escucha_banda.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
+        <state vertical-scroll-proportion="0.060570072">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="34" />
           <folding />
         </state>
@@ -767,7 +727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="32.175438">
+        <state vertical-scroll-proportion="2.5782983">
           <caret line="4" column="16355" selection-start-line="4" selection-start-column="16253" selection-end-line="4" selection-end-column="16355" />
           <folding />
         </state>
@@ -775,7 +735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/starterkits/less/less/overrides.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0877194">
+        <state vertical-scroll-proportion="1.1104513">
           <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding />
         </state>
@@ -783,48 +743,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/informe24/css/helpers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6538463">
+        <state vertical-scroll-proportion="3.6947744">
           <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--news_home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--more_news_home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
+        <state vertical-scroll-proportion="0.20190024">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--news_home.html.twig">
+    <entry file="file://$PROJECT_DIR$/themes/informe24/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        <state vertical-scroll-proportion="5.007126">
+          <caret line="248" column="1" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/informe24/templates/block--informe24-fbhome.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
+        <state vertical-scroll-proportion="0.2624703">
           <caret line="13" column="109" selection-start-line="13" selection-start-column="109" selection-end-line="13" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/node/node.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="38.23077">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/node--article.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.076923">
+          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-fields--home--news_home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/views/views-view-unformatted--home--news_home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6842105">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/informe24/templates/node--audio.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.263158">
+          <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/informe24/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.559415">
-          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.29216152">
+          <caret line="520" column="23" selection-start-line="520" selection-start-column="23" selection-end-line="520" selection-end-column="23" />
           <folding />
         </state>
       </provider>

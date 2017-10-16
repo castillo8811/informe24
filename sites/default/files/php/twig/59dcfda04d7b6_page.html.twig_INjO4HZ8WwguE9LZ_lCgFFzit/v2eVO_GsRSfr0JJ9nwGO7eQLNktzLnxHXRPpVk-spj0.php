@@ -27,13 +27,13 @@ class __TwigTemplate_188b02bc8b19c4e7a65b8c910fc53272cc8b5e313a6276af09e6e00b380
     {
         $tags = array("set" => 69, "if" => 71, "block" => 72);
         $filters = array("clean_class" => 77, "t" => 89);
-        $functions = array("url" => 103);
+        $functions = array();
 
         try {
             $this->env->getExtension('Twig_Extension_Sandbox')->checkSecurity(
                 array('set', 'if', 'block'),
                 array('clean_class', 't'),
-                array('url')
+                array()
             );
         } catch (Twig_Sandbox_SecurityError $e) {
             $e->setSourceContext($this->getSourceContext());
@@ -69,17 +69,17 @@ class __TwigTemplate_188b02bc8b19c4e7a65b8c910fc53272cc8b5e313a6276af09e6e00b380
             echo "  ";
             $this->displayBlock('navbar', $context, $blocks);
         }
-        // line 134
+        // line 111
         echo "
 ";
-        // line 136
+        // line 113
         $this->displayBlock('main', $context, $blocks);
-        // line 208
+        // line 185
         echo "
 ";
-        // line 209
+        // line 186
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "footer", array())) {
-            // line 210
+            // line 187
             echo "  ";
             $this->displayBlock('footer', $context, $blocks);
         }
@@ -133,171 +133,134 @@ class __TwigTemplate_188b02bc8b19c4e7a65b8c910fc53272cc8b5e313a6276af09e6e00b380
         ";
         }
         // line 98
-        echo "
-        ";
-        // line 99
-        if ((isset($context["node"]) ? $context["node"] : null)) {
-            // line 100
-            echo "          <div id=\"social-shares\" class=\"pull-right col-md-6 col-xs-7\">
-            <div id=\"social-shares-inner\">
-              <div id=\"fb-share\" class=\"col-lg-4\">
-                <a class=\"share-btn\" href=\"https://www.facebook.com/sharer/sharer.php?app_id=1855953211331152&sdk=joey&u=";
-            // line 103
-            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar($this->env->getExtension('Drupal\Core\Template\TwigExtension')->getUrl("<current>")));
-            echo "&display=popup&ref=plugin&src=share_button\" onclick=\"return !window.open(this.href, 'Facebook', 'width=640,height=580')\"></a>
-                <span></span>
-              </div>
-              <div id=\"tw-share\" class=\"col-lg-4\">
-                <a class=\"block\" target=\"_blank\" href=\"http://twitter.com/home?status=Estooy leyendo ";
-            // line 107
-            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar($this->env->getExtension('Drupal\Core\Template\TwigExtension')->getUrl("<current>")));
-            echo " via @masmusicabanda\">
-                  <span></span>
-                </a>
-              </div>
-              <div id=\"whatsapp-share\" class=\"col-lg-4\">
-                <a class=\"block loader-none\" href=\"whatsapp://send?text=Mira que estoy leyendo en ";
-            // line 112
-            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar($this->env->getExtension('Drupal\Core\Template\TwigExtension')->getUrl("<current>")));
-            echo "\">
-                  <span></span>
-                </a>
-              </div>
-              <div class=\"both\"></div>
-            </div>
-            <div class=\"both\"></div>
-          </div>
-        ";
-        }
-        // line 121
         echo "      </div>
       ";
-        // line 123
+        // line 100
         echo "      ";
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "navigation_collapsible", array())) {
-            // line 124
+            // line 101
             echo "        <div id=\"navbar-collapse\" class=\"navbar-collapse collapse\">
           ";
-            // line 125
+            // line 102
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "navigation_collapsible", array()), "html", null, true));
             echo "
         </div>
       ";
         }
-        // line 128
+        // line 105
         echo "      ";
         if ( !$this->getAttribute((isset($context["navbar_attributes"]) ? $context["navbar_attributes"] : null), "hasClass", array(0 => (isset($context["container"]) ? $context["container"] : null)), "method")) {
-            // line 129
+            // line 106
             echo "        </div>
       ";
         }
-        // line 131
+        // line 108
         echo "    </header>
   ";
     }
 
-    // line 136
+    // line 113
     public function block_main($context, array $blocks = array())
     {
-        // line 137
+        // line 114
         echo "  <div role=\"main\" class=\"main-container ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, (isset($context["container"]) ? $context["container"] : null), "html", null, true));
         echo " js-quickedit-main-content\">
     <div class=\"row\">
       ";
-        // line 140
+        // line 117
         echo "      ";
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "highlighted", array())) {
-            // line 141
+            // line 118
             echo "        ";
             $this->displayBlock('highlighted', $context, $blocks);
-            // line 144
+            // line 121
             echo "      ";
         }
-        // line 145
+        // line 122
         echo "
       ";
-        // line 147
+        // line 124
         echo "      ";
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array())) {
-            // line 148
+            // line 125
             echo "        ";
             $this->displayBlock('header', $context, $blocks);
-            // line 153
+            // line 130
             echo "      ";
         }
-        // line 154
+        // line 131
         echo "
 
       ";
-        // line 157
+        // line 134
         echo "      ";
-        // line 158
-        $context["content_classes"] = array(0 => ((($this->getAttribute(        // line 159
-(isset($context["page"]) ? $context["page"] : null), "sidebar_first", array()) && $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_second", array()))) ? ("col-sm-6") : ("")), 1 => ((($this->getAttribute(        // line 160
-(isset($context["page"]) ? $context["page"] : null), "sidebar_first", array()) && twig_test_empty($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_second", array())))) ? ("col-sm-9") : ("")), 2 => ((($this->getAttribute(        // line 161
-(isset($context["page"]) ? $context["page"] : null), "sidebar_second", array()) && twig_test_empty($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_first", array())))) ? ("col-sm-8") : ("")), 3 => (((twig_test_empty($this->getAttribute(        // line 162
+        // line 135
+        $context["content_classes"] = array(0 => ((($this->getAttribute(        // line 136
+(isset($context["page"]) ? $context["page"] : null), "sidebar_first", array()) && $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_second", array()))) ? ("col-sm-6") : ("")), 1 => ((($this->getAttribute(        // line 137
+(isset($context["page"]) ? $context["page"] : null), "sidebar_first", array()) && twig_test_empty($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_second", array())))) ? ("col-sm-9") : ("")), 2 => ((($this->getAttribute(        // line 138
+(isset($context["page"]) ? $context["page"] : null), "sidebar_second", array()) && twig_test_empty($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_first", array())))) ? ("col-sm-8") : ("")), 3 => (((twig_test_empty($this->getAttribute(        // line 139
 (isset($context["page"]) ? $context["page"] : null), "sidebar_first", array())) && twig_test_empty($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_second", array())))) ? ("col-sm-8") : ("")));
-        // line 165
+        // line 142
         echo "      <div id=\"page-content\">
         <section";
-        // line 166
+        // line 143
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["content_attributes"]) ? $context["content_attributes"] : null), "addClass", array(0 => (isset($context["content_classes"]) ? $context["content_classes"] : null)), "method"), "html", null, true));
         echo ">
           ";
-        // line 168
+        // line 145
         echo "          ";
         if ((isset($context["breadcrumb"]) ? $context["breadcrumb"] : null)) {
-            // line 169
+            // line 146
             echo "            ";
             $this->displayBlock('breadcrumb', $context, $blocks);
-            // line 172
+            // line 149
             echo "          ";
         }
-        // line 173
+        // line 150
         echo "
           ";
-        // line 175
+        // line 152
         echo "          ";
         if ((isset($context["action_links"]) ? $context["action_links"] : null)) {
-            // line 176
+            // line 153
             echo "            ";
             $this->displayBlock('action_links', $context, $blocks);
-            // line 179
+            // line 156
             echo "          ";
         }
-        // line 180
+        // line 157
         echo "
           ";
-        // line 182
+        // line 159
         echo "          ";
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "help", array())) {
-            // line 183
+            // line 160
             echo "            ";
             $this->displayBlock('help', $context, $blocks);
-            // line 186
+            // line 163
             echo "          ";
         }
-        // line 187
+        // line 164
         echo "
           ";
-        // line 189
+        // line 166
         echo "          ";
         $this->displayBlock('content', $context, $blocks);
-        // line 193
+        // line 170
         echo "        </section>
 
         ";
-        // line 196
+        // line 173
         echo "        ";
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_second", array())) {
-            // line 197
+            // line 174
             echo "          ";
             $this->displayBlock('sidebar_second', $context, $blocks);
-            // line 202
+            // line 179
             echo "        ";
         }
-        // line 203
+        // line 180
         echo "        <div class=\"clear\"></div>
       </div>
     </div>
@@ -305,93 +268,93 @@ class __TwigTemplate_188b02bc8b19c4e7a65b8c910fc53272cc8b5e313a6276af09e6e00b380
 ";
     }
 
-    // line 141
+    // line 118
     public function block_highlighted($context, array $blocks = array())
     {
-        // line 142
+        // line 119
         echo "          <div class=\"highlighted\">";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "highlighted", array()), "html", null, true));
         echo "</div>
         ";
     }
 
-    // line 148
+    // line 125
     public function block_header($context, array $blocks = array())
     {
-        // line 149
+        // line 126
         echo "          <div class=\"col-sm-12\" role=\"heading\">
             ";
-        // line 150
+        // line 127
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "html", null, true));
         echo "
           </div>
         ";
     }
 
-    // line 169
+    // line 146
     public function block_breadcrumb($context, array $blocks = array())
     {
-        // line 170
+        // line 147
         echo "              ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, (isset($context["breadcrumb"]) ? $context["breadcrumb"] : null), "html", null, true));
         echo "
             ";
     }
 
-    // line 176
+    // line 153
     public function block_action_links($context, array $blocks = array())
     {
-        // line 177
+        // line 154
         echo "              <ul class=\"action-links\">";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, (isset($context["action_links"]) ? $context["action_links"] : null), "html", null, true));
         echo "</ul>
             ";
     }
 
-    // line 183
+    // line 160
     public function block_help($context, array $blocks = array())
     {
-        // line 184
+        // line 161
         echo "              ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "help", array()), "html", null, true));
         echo "
             ";
     }
 
-    // line 189
+    // line 166
     public function block_content($context, array $blocks = array())
     {
-        // line 190
+        // line 167
         echo "            <a id=\"main-content\"></a>
             ";
-        // line 191
+        // line 168
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array()), "html", null, true));
         echo "
           ";
     }
 
-    // line 197
+    // line 174
     public function block_sidebar_second($context, array $blocks = array())
     {
-        // line 198
+        // line 175
         echo "            <aside class=\"sidebar-second col-sm-4 hidden-xs\" role=\"complementary\">
               ";
-        // line 199
+        // line 176
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_second", array()), "html", null, true));
         echo "
             </aside>
           ";
     }
 
-    // line 210
+    // line 187
     public function block_footer($context, array $blocks = array())
     {
-        // line 211
+        // line 188
         echo "    <footer class=\"footer ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, (isset($context["container"]) ? $context["container"] : null), "html", null, true));
         echo "\" role=\"contentinfo\">
       ";
-        // line 212
+        // line 189
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "footer", array()), "html", null, true));
         echo "
     </footer>
@@ -410,7 +373,7 @@ class __TwigTemplate_188b02bc8b19c4e7a65b8c910fc53272cc8b5e313a6276af09e6e00b380
 
     public function getDebugInfo()
     {
-        return array (  395 => 212,  390 => 211,  387 => 210,  380 => 199,  377 => 198,  374 => 197,  368 => 191,  365 => 190,  362 => 189,  355 => 184,  352 => 183,  345 => 177,  342 => 176,  335 => 170,  332 => 169,  325 => 150,  322 => 149,  319 => 148,  312 => 142,  309 => 141,  301 => 203,  298 => 202,  295 => 197,  292 => 196,  288 => 193,  285 => 189,  282 => 187,  279 => 186,  276 => 183,  273 => 182,  270 => 180,  267 => 179,  264 => 176,  261 => 175,  258 => 173,  255 => 172,  252 => 169,  249 => 168,  245 => 166,  242 => 165,  240 => 162,  239 => 161,  238 => 160,  237 => 159,  236 => 158,  234 => 157,  230 => 154,  227 => 153,  224 => 148,  221 => 147,  218 => 145,  215 => 144,  212 => 141,  209 => 140,  203 => 137,  200 => 136,  195 => 131,  191 => 129,  188 => 128,  182 => 125,  179 => 124,  176 => 123,  173 => 121,  161 => 112,  153 => 107,  146 => 103,  141 => 100,  139 => 99,  136 => 98,  124 => 89,  121 => 88,  118 => 87,  114 => 85,  111 => 84,  105 => 82,  103 => 81,  98 => 80,  96 => 77,  95 => 76,  94 => 74,  92 => 73,  89 => 72,  83 => 210,  81 => 209,  78 => 208,  76 => 136,  73 => 134,  69 => 72,  67 => 71,  65 => 69,  53 => 59,);
+        return array (  358 => 189,  353 => 188,  350 => 187,  343 => 176,  340 => 175,  337 => 174,  331 => 168,  328 => 167,  325 => 166,  318 => 161,  315 => 160,  308 => 154,  305 => 153,  298 => 147,  295 => 146,  288 => 127,  285 => 126,  282 => 125,  275 => 119,  272 => 118,  264 => 180,  261 => 179,  258 => 174,  255 => 173,  251 => 170,  248 => 166,  245 => 164,  242 => 163,  239 => 160,  236 => 159,  233 => 157,  230 => 156,  227 => 153,  224 => 152,  221 => 150,  218 => 149,  215 => 146,  212 => 145,  208 => 143,  205 => 142,  203 => 139,  202 => 138,  201 => 137,  200 => 136,  199 => 135,  197 => 134,  193 => 131,  190 => 130,  187 => 125,  184 => 124,  181 => 122,  178 => 121,  175 => 118,  172 => 117,  166 => 114,  163 => 113,  158 => 108,  154 => 106,  151 => 105,  145 => 102,  142 => 101,  139 => 100,  136 => 98,  124 => 89,  121 => 88,  118 => 87,  114 => 85,  111 => 84,  105 => 82,  103 => 81,  98 => 80,  96 => 77,  95 => 76,  94 => 74,  92 => 73,  89 => 72,  83 => 187,  81 => 186,  78 => 185,  76 => 113,  73 => 111,  69 => 72,  67 => 71,  65 => 69,  53 => 59,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -519,29 +482,6 @@ class __TwigTemplate_188b02bc8b19c4e7a65b8c910fc53272cc8b5e313a6276af09e6e00b380
           <a class=\"navbar-brand\" href=\"/\">
             <img src=\"/themes/informe24/logo.png\" />
           </a>
-        {% endif %}
-
-        {% if node %}
-          <div id=\"social-shares\" class=\"pull-right col-md-6 col-xs-7\">
-            <div id=\"social-shares-inner\">
-              <div id=\"fb-share\" class=\"col-lg-4\">
-                <a class=\"share-btn\" href=\"https://www.facebook.com/sharer/sharer.php?app_id=1855953211331152&sdk=joey&u={{ url('<current>') }}&display=popup&ref=plugin&src=share_button\" onclick=\"return !window.open(this.href, 'Facebook', 'width=640,height=580')\"></a>
-                <span></span>
-              </div>
-              <div id=\"tw-share\" class=\"col-lg-4\">
-                <a class=\"block\" target=\"_blank\" href=\"http://twitter.com/home?status=Estooy leyendo {{ url('<current>') }} via @masmusicabanda\">
-                  <span></span>
-                </a>
-              </div>
-              <div id=\"whatsapp-share\" class=\"col-lg-4\">
-                <a class=\"block loader-none\" href=\"whatsapp://send?text=Mira que estoy leyendo en {{ url('<current>') }}\">
-                  <span></span>
-                </a>
-              </div>
-              <div class=\"both\"></div>
-            </div>
-            <div class=\"both\"></div>
-          </div>
         {% endif %}
       </div>
       {# Navigation (collapsible) #}

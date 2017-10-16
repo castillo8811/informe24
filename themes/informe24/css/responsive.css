@@ -1,9 +1,19 @@
-
 @media (max-width: 640px) {
-    .text-xs-left { text-align: left; }
-    .text-xs-right { text-align: right; }
-    .text-xs-center { text-align: center; }
-    .text-xs-justify { text-align: justify; }
+    .text-xs-left {
+        text-align: left;
+    }
+
+    .text-xs-right {
+        text-align: right;
+    }
+
+    .text-xs-center {
+        text-align: center;
+    }
+
+    .text-xs-justify {
+        text-align: justify;
+    }
 
     .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
         margin-right: 0px !important;
@@ -14,33 +24,39 @@
         padding-right: 0px;
     }
 
-    .nodeListItem:last-child{
+    .nodeListItem:last-child {
         display: none;
     }
 
-    #bios img{
+    #bios img {
         width: 100% !important;
     }
 
-    .bios-title{
+    .bios-title {
         font-size: 2.3rem;
         text-align: center;
         margin-bottom: 10px;
     }
 
-    .node-autor, .node-date{display: block !important;float: none !important;}
-    .node-date{font-size: 1.3rem}
+    .node-autor, .node-date {
+        display: block !important;
+        float: none !important;
+    }
 
-    .newsletter-title{
+    .node-date {
+        font-size: 1.3rem
+    }
+
+    .newsletter-title {
         font-size: 2rem;
         text-align: center;
     }
 
-    .newsletter-logo{
+    .newsletter-logo {
         width: 23%;
     }
 
-    #newsletter-subscription .banner{
+    #newsletter-subscription .banner {
         margin: 0 auto;
         width: 100%;
         padding: 5px;
@@ -54,7 +70,7 @@
 
     }
 
-    #footer-brand-inner .brand-text{
+    #footer-brand-inner .brand-text {
         display: none;
     }
 
@@ -83,7 +99,6 @@
         padding-right: 0px;
     }
 
-
     .path-node .region-content {
         padding-right: 10px;
     }
@@ -93,14 +108,24 @@
         text-align: center;
     }
 
-
 }
 
 @media (min-width: 768px) {
-    .text-sm-left { text-align: left; }
-    .text-sm-right { text-align: right; }
-    .text-sm-center { text-align: center; }
-    .text-sm-justify { text-align: justify; }
+    .text-sm-left {
+        text-align: left;
+    }
+
+    .text-sm-right {
+        text-align: right;
+    }
+
+    .text-sm-center {
+        text-align: center;
+    }
+
+    .text-sm-justify {
+        text-align: justify;
+    }
 
     .nodeListItem {
         cursor: pointer;
@@ -117,18 +142,18 @@
         font-size: 1.6rem;
     }
 
-    #mailchimp-signup-subscribe-block-mmb-mc-form input[type="email"] {
+    #mailchimp-signup-subscribe-block-informe24-form input[type="email"] {
         width: 80%;
         font-size: 1.6rem;
     }
 
-    #mailchimp-signup-subscribe-block-mmb-mc-form .form-submit {
+    #mailchimp-signup-subscribe-block-informe24-form .form-submit {
         width: 80%;
         font-size: 1.3rem;
     }
 }
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
     #footer-brand-inner {
         width: 57%;
         margin: 0 auto;
@@ -145,7 +170,7 @@
         padding: 5px;
     }
 
-    .nodeListItem:last-child{
+    .nodeListItem:last-child {
         display: none;
     }
 
@@ -155,29 +180,51 @@
 }
 
 @media (min-width: 992px) {
-    .text-md-left { text-align: left; }
-    .text-md-right { text-align: right; }
-    .text-md-center { text-align: center; }
-    .text-md-justify { text-align: justify; }
+    .text-md-left {
+        text-align: left;
+    }
+
+    .text-md-right {
+        text-align: right;
+    }
+
+    .text-md-center {
+        text-align: center;
+    }
+
+    .text-md-justify {
+        text-align: justify;
+    }
 
     .container {
         width: 1010px;
     }
 
-    section.col-sm-8{
+    section.col-sm-8 {
         width: 700px !important;
     }
 
-    .sidebar-second{
+    .sidebar-second {
         width: 300px !important;
     }
 }
 
 @media (min-width: 1200px) {
-    .text-lg-left { text-align: left; }
-    .text-lg-right { text-align: right; }
-    .text-lg-center { text-align: center; }
-    .text-lg-justify { text-align: justify; }
+    .text-lg-left {
+        text-align: left;
+    }
+
+    .text-lg-right {
+        text-align: right;
+    }
+
+    .text-lg-center {
+        text-align: center;
+    }
+
+    .text-lg-justify {
+        text-align: justify;
+    }
 
     .container {
         max-width: 1024px !important;
@@ -192,11 +239,11 @@
         font-size: 2.5rem;
     }
 
-    #mailchimp-signup-subscribe-block-mmb-mc-form input[type="email"] {
+    #mailchimp-signup-subscribe-block-informe24-form input[type="email"] {
         width: 80%;
     }
 
-    #mailchimp-signup-subscribe-block-mmb-mc-form .form-submit {
+    #mailchimp-signup-subscribe-block-informe24-form .form-submit {
         width: 80%;
     }
 }

@@ -15,13 +15,13 @@ class __TwigTemplate_6b05f9514b5c308c5b5a30518a8bf89db72dcbab19cdadc4004fa9f1676
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("set" => 1, "for" => 15);
+        $tags = array("set" => 1, "if" => 4, "for" => 21);
         $filters = array("first" => 1, "slice" => 2);
         $functions = array();
 
         try {
             $this->env->getExtension('Twig_Extension_Sandbox')->checkSecurity(
-                array('set', 'for'),
+                array('set', 'if', 'for'),
                 array('first', 'slice'),
                 array()
             );
@@ -45,36 +45,52 @@ class __TwigTemplate_6b05f9514b5c308c5b5a30518a8bf89db72dcbab19cdadc4004fa9f1676
         $context["rows"] = twig_slice($this->env, (isset($context["rows"]) ? $context["rows"] : null), 1, 6);
         // line 3
         echo "
-<div id=\"stage\">
-  <div class=\"col-md-12 stageInner\">
-    ";
-        // line 6
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["stage"]) ? $context["stage"] : null), "content", array()), "html", null, true));
-        echo "
-    <div class=\"clear\"></div>
+";
+        // line 4
+        if ((isset($context["is_front"]) ? $context["is_front"] : null)) {
+            // line 5
+            echo "  <div id=\"stage\">
+    <div class=\"col-md-12 stageInner\">
+      ";
+            // line 7
+            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute((isset($context["stage"]) ? $context["stage"] : null), "content", array()), "html", null, true));
+            echo "
+      <div class=\"clear\"></div>
+    </div>
   </div>
-</div>
+";
+        }
+        // line 12
+        echo "
 
 <div id=\"last-news\">
-  <div class=\"block PN3r0 text-bold ml10 text-center\">
-    <span class=\"text-danger text-center\">Más de Informe 24</span>
-  </div>
   ";
         // line 15
+        if ((isset($context["is_front"]) ? $context["is_front"] : null)) {
+            // line 16
+            echo "    <div class=\"block PN3r0 text-bold ml10 text-center\">
+      <span class=\"text-danger text-center\">Más de Informe 24</span>
+    </div>
+  ";
+        }
+        // line 20
+        echo "
+  ";
+        // line 21
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["rows"]) ? $context["rows"] : null));
         foreach ($context['_seq'] as $context["_key"] => $context["row"]) {
-            // line 16
+            // line 22
             echo "    ";
-            // line 17
-            $context["row_classes"] = array(0 => ((            // line 18
-(isset($context["default_row_class"]) ? $context["default_row_class"] : null)) ? ("views-row") : ("")), 1 => "panel", 2 => "panel-default");
             // line 23
+            $context["row_classes"] = array(0 => ((            // line 24
+(isset($context["default_row_class"]) ? $context["default_row_class"] : null)) ? ("views-row") : ("")), 1 => "panel", 2 => "panel-default");
+            // line 29
             echo "
     <div class=\"nodeListItem col-md-4 col-xs-6\">
       <div class=\"nodeListItemInner\">
         ";
-            // line 26
+            // line 32
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute($context["row"], "content", array()), "html", null, true));
             echo "
       </div>
@@ -84,7 +100,7 @@ class __TwigTemplate_6b05f9514b5c308c5b5a30518a8bf89db72dcbab19cdadc4004fa9f1676
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['row'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 30
+        // line 36
         echo "</div>";
     }
 
@@ -100,7 +116,7 @@ class __TwigTemplate_6b05f9514b5c308c5b5a30518a8bf89db72dcbab19cdadc4004fa9f1676
 
     public function getDebugInfo()
     {
-        return array (  88 => 30,  78 => 26,  73 => 23,  71 => 18,  70 => 17,  68 => 16,  64 => 15,  52 => 6,  47 => 3,  45 => 2,  43 => 1,);
+        return array (  104 => 36,  94 => 32,  89 => 29,  87 => 24,  86 => 23,  84 => 22,  80 => 21,  77 => 20,  71 => 16,  69 => 15,  64 => 12,  56 => 7,  52 => 5,  50 => 4,  47 => 3,  45 => 2,  43 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -116,17 +132,23 @@ class __TwigTemplate_6b05f9514b5c308c5b5a30518a8bf89db72dcbab19cdadc4004fa9f1676
         return new Twig_Source("{% set stage = rows | first %}
 {% set rows = rows | slice(1,6) %}
 
-<div id=\"stage\">
-  <div class=\"col-md-12 stageInner\">
-    {{ stage.content }}
-    <div class=\"clear\"></div>
+{% if is_front %}
+  <div id=\"stage\">
+    <div class=\"col-md-12 stageInner\">
+      {{ stage.content }}
+      <div class=\"clear\"></div>
+    </div>
   </div>
-</div>
+{% endif %}
+
 
 <div id=\"last-news\">
-  <div class=\"block PN3r0 text-bold ml10 text-center\">
-    <span class=\"text-danger text-center\">Más de Informe 24</span>
-  </div>
+  {% if is_front %}
+    <div class=\"block PN3r0 text-bold ml10 text-center\">
+      <span class=\"text-danger text-center\">Más de Informe 24</span>
+    </div>
+  {% endif %}
+
   {% for row in rows %}
     {%
     set row_classes = [
