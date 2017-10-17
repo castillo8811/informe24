@@ -110,7 +110,7 @@ ul.menu {
 .nodeListItemInner {
     box-shadow: 1px 2px 3px lightgrey;
     padding: 5px;
-    min-height: 200px;
+    min-height: 210px;
     position: relative;
     border: solid 1px lightgray;
 }
@@ -119,6 +119,7 @@ ul.menu {
     height: 60px;
     padding: 5px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .nodelist-title a {
