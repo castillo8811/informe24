@@ -1,13 +1,19 @@
 @media (max-width: 640px) {
 
     #stage .stageInner .col-md-12 {
-        width: 65%;
+        width: 70%;
         margin: 0 auto;
         margin-top: 10px;
     }
 
     #stage .stageInner .col-xs-2 {
         width: 25%;
+        background-color: red;
+        display: block;
+    }
+
+    #stage .stageInner .col-xs-10 {
+        width: 75%;
     }
 
     .node-author-section-inner {
