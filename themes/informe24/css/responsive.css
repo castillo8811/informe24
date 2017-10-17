@@ -8,9 +8,6 @@
 
     #stage .stageInner .col-xs-2 {
         width: 25%;
-        background-color: red;
-        display: block;
-        overflow: hidden;
     }
 
     #stage .stageInner .col-xs-2 a {
