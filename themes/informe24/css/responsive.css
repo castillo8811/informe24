@@ -1,8 +1,13 @@
 @media (max-width: 640px) {
 
     #stage .stageInner .col-md-12 {
-        width: 60%;
+        width: 65%;
         margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #stage .stageInner .col-xs-2 {
+        width: 25%;
     }
 
     .node-author-section-inner {
@@ -11,11 +16,14 @@
     }
 
     .nodelist-title{
-        margin-bottom: 35px;
+        margin-bottom: 15px;
     }
 
     .nodelist-audiolink {
-         width: 50% !important;
+         width: 60% !important;
+        float: none !important;
+        margin: 0 auto;
+        font-size: 1.5rem;
     }
 
     #newsletter-subscription img{

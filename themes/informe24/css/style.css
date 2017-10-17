@@ -83,7 +83,7 @@ ul.menu {
 }
 
 #stage .stageInner .col-xs-10{
-    width: 65%;
+    width: 45%;
 }
 
 #stage .nodelist-audiolink {
@@ -110,13 +110,13 @@ ul.menu {
 .nodeListItemInner {
     box-shadow: 1px 2px 3px lightgrey;
     padding: 5px;
-    min-height: 210px;
+    min-height: 200px;
     position: relative;
     border: solid 1px lightgray;
 }
 
 .nodelist-title {
-    height: 60px;
+    min-height: 45px;
     padding: 5px;
     text-align: center;
     margin-bottom: 15px;
