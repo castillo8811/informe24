@@ -1,4 +1,44 @@
 @media (max-width: 640px) {
+
+    #stage .stageInner .col-md-12 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .nodelist-audiolink {
+         width: 50% !important;
+    }
+
+    #newsletter-subscription img{
+        width: 63%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+
+    #newsletter-subscription-form input{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #newsletter-subscription .form-item {
+        margin: 10px auto;
+        float: none;
+        width: 100%;
+
+    }
+
+    #newsletter-subscription .form-submit {
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .nodelist-title a {
+       font-size: 2.5rem !important;
+    }
+
     .text-xs-left {
         text-align: left;
     }
