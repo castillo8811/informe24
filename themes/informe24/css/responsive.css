@@ -40,6 +40,10 @@
         display: block;
     }
 
+    .nodelist-autor-wrapper{
+        margin-bottom: 15px;
+    }
+
     .nodelist-title a {
        font-size: 2.5rem !important;
     }
