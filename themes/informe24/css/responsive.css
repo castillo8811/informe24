@@ -10,6 +10,10 @@
         margin: 0 auto;
     }
 
+    .nodelist-title{
+        margin-bottom: 35px;
+    }
+
     .nodelist-audiolink {
          width: 50% !important;
     }
@@ -41,11 +45,12 @@
     }
 
     .nodelist-autor-wrapper{
-        margin-bottom: 15px;
+        margin-bottom: 15px !important;
     }
 
     .nodelist-title a {
        font-size: 2.5rem !important;
+        line-height: 1;
     }
 
     .text-xs-left {
@@ -99,7 +104,6 @@
     .newsletter-title {
         font-size: 2rem;
         text-align: center;
-        margin-bottom: 35px;
     }
 
     .newsletter-logo {
