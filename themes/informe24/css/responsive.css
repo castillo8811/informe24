@@ -13,6 +13,11 @@
         overflow: hidden;
     }
 
+    #stage .stageInner .col-xs-2 a {
+        display: block;
+        overflow: hidden;
+    }
+
     #stage .stageInner .col-xs-10 {
         width: 75%;
     }
