@@ -298,6 +298,10 @@ ul.menu {
 .page-header {
     padding: 0 !important;
     border-bottom: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold
 }
 
 .well {
@@ -675,4 +679,22 @@ ul.menu {
 
 .radio-info a {
     color: black;
+}
+
+#block-piedepagina ul {
+    border-bottom: solid 1px lightgray;
+    border-top: solid 1px lightgray;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+
+#block-piedepagina ul li {
+    display: inline-block;
+    float: left;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+}
+#block-piedepagina ul li a {
+    color: #000;
+    text-align: center;
 }
