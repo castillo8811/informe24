@@ -1,7 +1,6 @@
 <div class="nodelist-title">
     {{ fields.title.content }}
 </div>
-
 <div class="col-md-12 col-xs-10 block center-block nodelist-autor-wrapper">
     <div>
         <div class="col-sm-4 col-xs-2">
@@ -18,7 +17,7 @@
 </div>
 
 <div class="nodelist-audiolink">
-    <span>
+    <a href="{{ path('entity.node.canonical', {'node': fields.nid.content}) }}">
         Escuchar <img src="/themes/informe24/images/icono_audio.png" />
-    </span>
+    </a>
 </div>
