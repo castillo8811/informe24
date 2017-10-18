@@ -23,7 +23,7 @@ a {
 
 .navbar-brand {
     height: 60px;
-    padding: 5px 15px;
+    padding: 5px 0px;
 }
 
 #navbar-sticky-wrapper {
@@ -58,6 +58,10 @@ ul.menu {
 #stage .nodelist-audiolink {
     width: 25%;
     float: right;
+}
+
+#stage .nodelist-audiolink a {
+    color:white;
 }
 
 #stage .nodelist-title {
@@ -137,7 +141,31 @@ ul.menu {
     font-weight: bold;
 }
 
-.nodelist-autor .node-autor-name a {
+.conductor-info{
+    margin-bottom: 50px;
+}
+
+.conductor-item img{
+    height: 45px !important;
+    width: 50px !important;
+    border-radius: 50%;
+}
+
+.programa a{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.conductor-name a, .condictor-name a {
+    color: dimgray;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.nodelist-autor .node-autor-name a, .conductor-name a {
     color: dimgray;
     font-weight: normal;
 }
@@ -153,6 +181,11 @@ ul.menu {
     margin: 0 auto;
     clear: both;
 }
+
+.nodelist-audiolink a {
+    color: white;
+}
+
 
 .nodeListItem .nodelist-audiolink {
     bottom: 15px;
