@@ -1,4 +1,4 @@
-<div class="more-news">
+<div id="programacion">
   {% for row in rows %}
     {%
     set row_classes = [
@@ -8,10 +8,8 @@
     ]
     %}
 
-    <div class="nodeListItem col-md-4 col-sm-6 col-xs-12">
-      <div class="nodeListItemInner">
-        {{ row.content }}
-      </div>
+    <div class="programacion-item col-sm-4">
+      {{ row.content }}
     </div>
   {% endfor %}
   <div class="clear"></div>
