@@ -162,7 +162,7 @@
  *   with web services:
  *   - You should make requests using the 'http_client' service, which
  *     implements \GuzzleHttp\ClientInterface. See the
- *     @link container Services topic @endlink for more information on
+ * @link container Services topic @endlink for more information on
  *     services. If you cannot use dependency injection to retrieve this
  *     service, the \Drupal::httpClient() method is available. A good example
  *     of how to use this service can be found in
@@ -381,7 +381,7 @@
  *   translated) on an admin path like '/node/add/article' (when configured to
  *   be an admin path). Here's an example using the configurable_language config
  *   entity:
- *   @code
+ * @code
  *   mymodule.myroute:
  *     path: '/admin/mypath/{configurable_language}'
  *     defaults:
@@ -391,7 +391,7 @@
  *         configurable_language:
  *           type: entity:configurable_language
  *           with_config_overrides: TRUE
- *   @endcode
+ * @endcode
  *   With the route defined this way, the $configurable_language parameter to
  *   your controller method will come in translated to the current language.
  *   Without the parameter options section, it would be in the original
@@ -690,7 +690,7 @@
  *   information.
  * - Other code: There is a 'current_user' service, which can be injected into
  *   classes to provide access to the current user account (see the
- *   @link container Services and Dependency Injection topic @endlink for more
+ * @link container Services and Dependency Injection topic @endlink for more
  *   information on dependency injection). In code that cannot use dependency
  *   injection, you can access this service and retrieve the current user
  *   account object by calling \Drupal::currentUser(). Once you have a user
@@ -817,12 +817,12 @@
  *   access services, via a call to the global \Drupal class. This class has
  *   special methods for accessing commonly-used services, or you can call a
  *   generic method to access any service. Examples:
- *   @code
+ * @code
  *   // Retrieve the entity.manager service object (special method exists).
  *   $manager = \Drupal::entityManager();
  *   // Retrieve the service object for machine name 'foo.bar'.
  *   $foobar = \Drupal::service('foo.bar');
- *   @endcode
+ * @endcode
  *
  * As a note, you should always use dependency injection (via service arguments
  * or create()/createInstance() methods) if possible to instantiate services,
@@ -846,7 +846,7 @@
  *   services are provided by other modules and not Drupal Core, you'll want
  *   these modules to be dependencies of your module.
  * - Add an entry to a modulename.services.yml file for the service. See
- *   @ref sec_discover above, or existing *.services.yml files in Core, for the
+ * @ref sec_discover above, or existing *.services.yml files in Core, for the
  *   syntax; it will start with your machine name, refer to your default class,
  *   and list the services that need to be passed into your constructor.
  *
@@ -872,13 +872,13 @@
  * - The class needs to contain one method: alter(). This method does the
  *   actual work of telling Drupal to use your class instead of the default.
  *   Here's an example:
- *   @code
+ * @code
  *   public function alter(ContainerBuilder $container) {
  *     // Override the language_manager class with a new class.
  *     $definition = $container->getDefinition('language_manager');
  *     $definition->setClass('Drupal\my_module\MyLanguageManager');
  *   }
- *   @endcode
+ * @endcode
  *   Note that $container here is an instance of
  *   \Drupal\Core\DependencyInjection\ContainerBuilder.
  *
@@ -1036,7 +1036,7 @@
  *   short name), and add annotation of type
  *   \Drupal\Core\TypedData\Annotation\DataType to the documentation header.
  *   See the @link plugin_api Plugin API topic @endlink and the
- *   @link annotation Annotations topic @endlink for more information.
+ * @link annotation Annotations topic @endlink for more information.
  *
  * @section sec_using Using data types
  * The data types of the Typed Data API can be used in several ways, once they
@@ -1046,7 +1046,7 @@
  *   more information.
  * - In configuration schema files, you can use the unique ID ('id' annotation)
  *   from any DataType plugin class as the 'type' value for an entry. See the
- *   @link config_api Confuration API topic @endlink for more information.
+ * @link config_api Confuration API topic @endlink for more information.
  * - If you need to create a typed data object in code, first get the
  *   typed_data_manager service from the container or by calling
  *   \Drupal::typedDataManager(). Then pass the plugin ID to
@@ -1276,7 +1276,7 @@
  *   can be) human-edited, but is not Content, and is meant to be relatively
  *   permanent. Examples: the name of your site, the content types and views
  *   you have defined, etc. See
- *   @link config_api the Configuration API topic @endlink for more information.
+ * @link config_api the Configuration API topic @endlink for more information.
  *
  * @see cache
  * @see i18n
@@ -1295,7 +1295,7 @@
  *   template files, which alter the HTML markup and other raw output of the
  *   site; CSS files, which alter the styling applied to the HTML; and
  *   JavaScript, Flash, images, and other files. For more information, see the
- *   @link theme_render Theme system and render API topic @endlink and
+ * @link theme_render Theme system and render API topic @endlink and
  *   https://www.drupal.org/docs/8/theming
  * - Modules: Modules add to or alter the behavior and functionality of Drupal,
  *   by using one or more of the methods listed below. For more information
@@ -1313,13 +1313,13 @@
  *   See the @link hooks Hooks topic @endlink for more information.
  * - Plugins: Classes that a module defines, which are discovered and
  *   instantiated at specific times to add functionality. See the
- *   @link plugin_api Plugin API topic @endlink for more information.
+ * @link plugin_api Plugin API topic @endlink for more information.
  * - Entities: Special plugins that define entity types for storing new types
  *   of content or configuration in Drupal. See the
- *   @link entity_api Entity API topic @endlink for more information.
+ * @link entity_api Entity API topic @endlink for more information.
  * - Services: Classes that perform basic operations within Drupal, such as
  *   accessing the database and sending email. See the
- *   @link container Dependency Injection Container and Services topic @endlink
+ * @link container Dependency Injection Container and Services topic @endlink
  *   for more information.
  * - Routing: Providing or altering "routes", which are URLs that Drupal
  *   responds to, or altering routing behavior with event listener classes.
@@ -1457,18 +1457,18 @@
  *   namespace for discovery, set up the alter hook, and possibly set up
  *   caching. See classes that extend DefaultPluginManager for examples.
  * - Define a service for your plugin manager. See the
- *   @link container Services topic for more information. @endlink Your service
+ * @link container Services topic for more information. @endlink Your service
  *   definition should look something like this, referencing your manager
  *   class and the parent (default) plugin manager service to inherit
  *   constructor arguments:
- *   @code
+ * @code
  *   plugin.manager.mymodule:
  *     class: Drupal\mymodule\MyPluginManager
  *     parent: default_plugin_manager
- *   @endcode
+ * @endcode
  * - If your plugin is configurable, you will also need to define the
  *   configuration schema and possibly a configuration entity type. See the
- *   @link config_api Configuration API topic @endlink for more information.
+ * @link config_api Configuration API topic @endlink for more information.
  *
  * @subsection sub_collection Defining a plugin collection
  * Some configurable plugin types allow administrators to create zero or more
@@ -1494,7 +1494,7 @@
  *   defined. Usually, you'll want to extend the plugin base class, if one has
  *   been provided.
  * - Have the right annotation in its documentation header. See the
- *   @link annotation Annotation topic @endlink for more information about
+ * @link annotation Annotation topic @endlink for more information about
  *   annotation.
  * - Be in the right plugin namespace, in order to be discovered.
  * Often, the easiest way to make sure this happens is to find an existing
@@ -1554,7 +1554,7 @@
  *   the @link annotation Annotation topic @endlink for more information.
  * - Standard plugin discovery requires particular namespaces and annotation
  *   for most plugin classes. See the
- *   @link plugin_api Plugin API topic @endlink for more information.
+ * @link plugin_api Plugin API topic @endlink for more information.
  * - There are project-wide coding standards for OO code, including naming:
  *   https://www.drupal.org/node/608152
  * - Documentation standards for classes are covered on:
@@ -1608,7 +1608,7 @@
  *
  * Standards and best practices that developers should be aware of include:
  * - Security: https://www.drupal.org/writing-secure-code and the
- *   @link sanitization Sanitization functions topic @endlink
+ * @link sanitization Sanitization functions topic @endlink
  * - Coding standards: https://www.drupal.org/coding-standards
  *   and https://www.drupal.org/coding-standards/docs
  * - Accessibility: https://www.drupal.org/node/1637990 (modules) and
@@ -1966,36 +1966,37 @@
  * more queues via a \Drupal\Core\Annotation\QueueWorker plugin. Then, add items
  * that need to be processed to the defined queues.
  */
-function hook_cron() {
-  // Short-running operation example, not using a queue:
-  // Delete all expired records since the last cron run.
-  $expires = \Drupal::state()->get('mymodule.last_check', 0);
-  \Drupal::database()->delete('mymodule_table')
-    ->condition('expires', $expires, '>=')
-    ->execute();
-  \Drupal::state()->set('mymodule.last_check', REQUEST_TIME);
+function hook_cron()
+{
+    // Short-running operation example, not using a queue:
+    // Delete all expired records since the last cron run.
+    $expires = \Drupal::state()->get('mymodule.last_check', 0);
+    \Drupal::database()->delete('mymodule_table')
+        ->condition('expires', $expires, '>=')
+        ->execute();
+    \Drupal::state()->set('mymodule.last_check', REQUEST_TIME);
 
-  // Long-running operation example, leveraging a queue:
-  // Queue news feeds for updates once their refresh interval has elapsed.
-  $queue = \Drupal::queue('aggregator_feeds');
-  $ids = \Drupal::entityManager()->getStorage('aggregator_feed')->getFeedIdsToRefresh();
-  foreach (Feed::loadMultiple($ids) as $feed) {
-    if ($queue->createItem($feed)) {
-      // Add timestamp to avoid queueing item more than once.
-      $feed->setQueuedTime(REQUEST_TIME);
-      $feed->save();
+    // Long-running operation example, leveraging a queue:
+    // Queue news feeds for updates once their refresh interval has elapsed.
+    $queue = \Drupal::queue('aggregator_feeds');
+    $ids = \Drupal::entityManager()->getStorage('aggregator_feed')->getFeedIdsToRefresh();
+    foreach (Feed::loadMultiple($ids) as $feed) {
+        if ($queue->createItem($feed)) {
+            // Add timestamp to avoid queueing item more than once.
+            $feed->setQueuedTime(REQUEST_TIME);
+            $feed->save();
+        }
     }
-  }
-  $ids = \Drupal::entityQuery('aggregator_feed')
-    ->condition('queued', REQUEST_TIME - (3600 * 6), '<')
-    ->execute();
-  if ($ids) {
-    $feeds = Feed::loadMultiple($ids);
-    foreach ($feeds as $feed) {
-      $feed->setQueuedTime(0);
-      $feed->save();
+    $ids = \Drupal::entityQuery('aggregator_feed')
+        ->condition('queued', REQUEST_TIME - (3600 * 6), '<')
+        ->execute();
+    if ($ids) {
+        $feeds = Feed::loadMultiple($ids);
+        foreach ($feeds as $feed) {
+            $feed->setQueuedTime(0);
+            $feed->save();
+        }
     }
-  }
 }
 
 /**
@@ -2006,8 +2007,9 @@ function hook_cron() {
  *
  * @see hook_data_type_info()
  */
-function hook_data_type_info_alter(&$data_types) {
-  $data_types['email']['class'] = '\Drupal\mymodule\Type\Email';
+function hook_data_type_info_alter(&$data_types)
+{
+    $data_types['email']['class'] = '\Drupal\mymodule\Type\Email';
 }
 
 /**
@@ -2023,10 +2025,11 @@ function hook_data_type_info_alter(&$data_types) {
  * @see \Drupal\Core\Annotation\QueueWorker
  * @see \Drupal\Core\Cron
  */
-function hook_queue_info_alter(&$queues) {
-  // This site has many feeds so let's spend 90 seconds on each cron run
-  // updating feeds instead of the default 60.
-  $queues['aggregator_feeds']['cron']['time'] = 90;
+function hook_queue_info_alter(&$queues)
+{
+    // This site has many feeds so let's spend 90 seconds on each cron run
+    // updating feeds instead of the default 60.
+    $queues['aggregator_feeds']['cron']['time'] = 90;
 }
 
 /**
@@ -2076,16 +2079,17 @@ function hook_queue_info_alter(&$queues) {
  *
  * @see \Drupal\Core\Mail\MailManagerInterface::mail()
  */
-function hook_mail_alter(&$message) {
-  if ($message['id'] == 'modulename_messagekey') {
-    if (!example_notifications_optin($message['to'], $message['id'])) {
-      // If the recipient has opted to not receive such messages, cancel
-      // sending.
-      $message['send'] = FALSE;
-      return;
+function hook_mail_alter(&$message)
+{
+    if ($message['id'] == 'modulename_messagekey') {
+        if (!example_notifications_optin($message['to'], $message['id'])) {
+            // If the recipient has opted to not receive such messages, cancel
+            // sending.
+            $message['send'] = FALSE;
+            return;
+        }
+        $message['body'][] = "--\nMail sent out from " . \Drupal::config('system.site')->get('name');
     }
-    $message['body'][] = "--\nMail sent out from " . \Drupal::config('system.site')->get('name');
-  }
 }
 
 /**
@@ -2124,43 +2128,44 @@ function hook_mail_alter(&$message) {
  *
  * @see \Drupal\Core\Mail\MailManagerInterface::mail()
  */
-function hook_mail($key, &$message, $params) {
-  $account = $params['account'];
-  $context = $params['context'];
-  $variables = [
-    '%site_name' => \Drupal::config('system.site')->get('name'),
-    '%username' => $account->getDisplayName(),
-  ];
-  if ($context['hook'] == 'taxonomy') {
-    $entity = $params['entity'];
-    $vocabulary = Vocabulary::load($entity->id());
-    $variables += [
-      '%term_name' => $entity->name,
-      '%term_description' => $entity->description,
-      '%term_id' => $entity->id(),
-      '%vocabulary_name' => $vocabulary->label(),
-      '%vocabulary_description' => $vocabulary->getDescription(),
-      '%vocabulary_id' => $vocabulary->id(),
+function hook_mail($key, &$message, $params)
+{
+    $account = $params['account'];
+    $context = $params['context'];
+    $variables = [
+        '%site_name' => \Drupal::config('system.site')->get('name'),
+        '%username' => $account->getDisplayName(),
     ];
-  }
+    if ($context['hook'] == 'taxonomy') {
+        $entity = $params['entity'];
+        $vocabulary = Vocabulary::load($entity->id());
+        $variables += [
+            '%term_name' => $entity->name,
+            '%term_description' => $entity->description,
+            '%term_id' => $entity->id(),
+            '%vocabulary_name' => $vocabulary->label(),
+            '%vocabulary_description' => $vocabulary->getDescription(),
+            '%vocabulary_id' => $vocabulary->id(),
+        ];
+    }
 
-  // Node-based variable translation is only available if we have a node.
-  if (isset($params['node'])) {
-    /** @var \Drupal\node\NodeInterface $node */
-    $node = $params['node'];
-    $variables += [
-      '%uid' => $node->getOwnerId(),
-      '%url' => $node->url('canonical', ['absolute' => TRUE]),
-      '%node_type' => node_get_type_label($node),
-      '%title' => $node->getTitle(),
-      '%teaser' => $node->teaser,
-      '%body' => $node->body,
-    ];
-  }
-  $subject = strtr($context['subject'], $variables);
-  $body = strtr($context['message'], $variables);
-  $message['subject'] .= str_replace(["\r", "\n"], '', $subject);
-  $message['body'][] = MailFormatHelper::htmlToText($body);
+    // Node-based variable translation is only available if we have a node.
+    if (isset($params['node'])) {
+        /** @var \Drupal\node\NodeInterface $node */
+        $node = $params['node'];
+        $variables += [
+            '%uid' => $node->getOwnerId(),
+            '%url' => $node->url('canonical', ['absolute' => TRUE]),
+            '%node_type' => node_get_type_label($node),
+            '%title' => $node->getTitle(),
+            '%teaser' => $node->teaser,
+            '%body' => $node->body,
+        ];
+    }
+    $subject = strtr($context['subject'], $variables);
+    $body = strtr($context['message'], $variables);
+    $message['subject'] .= str_replace(["\r", "\n"], '', $subject);
+    $message['body'][] = MailFormatHelper::htmlToText($body);
 }
 
 /**
@@ -2172,8 +2177,9 @@ function hook_mail($key, &$message, $params) {
  * @see \Drupal\Core\Annotation\Mail
  * @see \Drupal\Core\Mail\MailManager
  */
-function hook_mail_backend_info_alter(&$info) {
-  unset($info['test_mail_collector']);
+function hook_mail_backend_info_alter(&$info)
+{
+    unset($info['test_mail_collector']);
 }
 
 /**
@@ -2184,9 +2190,10 @@ function hook_mail_backend_info_alter(&$info) {
  *
  * @see \Drupal\Core\Locale\CountryManager::getList()
  */
-function hook_countries_alter(&$countries) {
-  // Elbonia is now independent, so add it to the country list.
-  $countries['EB'] = 'Elbonia';
+function hook_countries_alter(&$countries)
+{
+    // Elbonia is now independent, so add it to the country list.
+    $countries['EB'] = 'Elbonia';
 }
 
 /**
@@ -2198,8 +2205,9 @@ function hook_countries_alter(&$countries) {
  * @see \Drupal\Core\Display\VariantManager
  * @see \Drupal\Core\Display\Annotation\DisplayVariant
  */
-function hook_display_variant_plugin_alter(array &$definitions) {
-  $definitions['full_page']['admin_label'] = t('Block layout');
+function hook_display_variant_plugin_alter(array &$definitions)
+{
+    $definitions['full_page']['admin_label'] = t('Block layout');
 }
 
 /**
@@ -2208,9 +2216,10 @@ function hook_display_variant_plugin_alter(array &$definitions) {
  * @param \Drupal\Core\Layout\LayoutDefinition[] $definitions
  *   The array of layout definitions, keyed by plugin ID.
  */
-function hook_layout_alter(&$definitions) {
-  // Remove a layout.
-  unset($definitions['twocol']);
+function hook_layout_alter(&$definitions)
+{
+    // Remove a layout.
+    unset($definitions['twocol']);
 }
 
 /**
@@ -2233,10 +2242,11 @@ function hook_layout_alter(&$definitions) {
  * @see drupal_flush_all_caches()
  * @see hook_rebuild()
  */
-function hook_cache_flush() {
-  if (defined('MAINTENANCE_MODE') && MAINTENANCE_MODE == 'update') {
-    _update_cache_clear();
-  }
+function hook_cache_flush()
+{
+    if (defined('MAINTENANCE_MODE') && MAINTENANCE_MODE == 'update') {
+        _update_cache_clear();
+    }
 }
 
 /**
@@ -2254,11 +2264,12 @@ function hook_cache_flush() {
  * @see hook_cache_flush()
  * @see drupal_flush_all_caches()
  */
-function hook_rebuild() {
-  $themes = \Drupal::service('theme_handler')->listInfo();
-  foreach ($themes as $theme) {
-    _block_rehash($theme->getName());
-  }
+function hook_rebuild()
+{
+    $themes = \Drupal::service('theme_handler')->listInfo();
+    foreach ($themes as $theme) {
+        _block_rehash($theme->getName());
+    }
 }
 
 /**
@@ -2277,16 +2288,17 @@ function hook_rebuild() {
  *     }
  *   </code>
  *   For more information on creating batches, see the
- *   @link batch Batch operations @endlink documentation.
+ * @link batch Batch operations @endlink documentation.
  *
  * @see callback_batch_operation()
  * @see \Drupal\Core\Config\ConfigImporter::initialize()
  */
-function hook_config_import_steps_alter(&$sync_steps, \Drupal\Core\Config\ConfigImporter $config_importer) {
-  $deletes = $config_importer->getUnprocessedConfiguration('delete');
-  if (isset($deletes['field.storage.node.body'])) {
-    $sync_steps[] = '_additional_configuration_step';
-  }
+function hook_config_import_steps_alter(&$sync_steps, \Drupal\Core\Config\ConfigImporter $config_importer)
+{
+    $deletes = $config_importer->getUnprocessedConfiguration('delete');
+    if (isset($deletes['field.storage.node.body'])) {
+        $sync_steps[] = '_additional_configuration_step';
+    }
 }
 
 /**
@@ -2311,12 +2323,13 @@ function hook_config_import_steps_alter(&$sync_steps, \Drupal\Core\Config\Config
  * @see \Drupal\Core\Config\TypedConfigManager
  * @see \Drupal\Core\Config\Schema\ConfigSchemaAlterException
  */
-function hook_config_schema_info_alter(&$definitions) {
-  // Enhance the text and date type definitions with classes to generate proper
-  // form elements in ConfigTranslationFormBase. Other translatable types will
-  // appear as a one line textfield.
-  $definitions['text']['form_element_class'] = '\Drupal\config_translation\FormElement\Textarea';
-  $definitions['date_format']['form_element_class'] = '\Drupal\config_translation\FormElement\DateFormat';
+function hook_config_schema_info_alter(&$definitions)
+{
+    // Enhance the text and date type definitions with classes to generate proper
+    // form elements in ConfigTranslationFormBase. Other translatable types will
+    // appear as a one line textfield.
+    $definitions['text']['form_element_class'] = '\Drupal\config_translation\FormElement\Textarea';
+    $definitions['date_format']['form_element_class'] = '\Drupal\config_translation\FormElement\DateFormat';
 }
 
 /**
@@ -2328,8 +2341,9 @@ function hook_config_schema_info_alter(&$definitions) {
  * @see \Drupal\Core\Validation\ConstraintManager
  * @see \Drupal\Core\Validation\Annotation\Constraint
  */
-function hook_validation_constraint_alter(array &$definitions) {
-  $definitions['Null']['class'] = '\Drupal\mymodule\Validator\Constraints\MyClass';
+function hook_validation_constraint_alter(array &$definitions)
+{
+    $definitions['Null']['class'] = '\Drupal\mymodule\Validator\Constraints\MyClass';
 }
 
 /**
@@ -2503,12 +2517,12 @@ function hook_validation_constraint_alter(array &$definitions) {
  * how the service behaves. Typically, if you tag a service, your service class
  * must also implement a corresponding interface. Some common examples:
  * - access_check: Indicates a route access checking service; see the
- *   @link menu Menu and routing system topic @endlink for more information.
+ * @link menu Menu and routing system topic @endlink for more information.
  * - cache.bin: Indicates a cache bin service; see the
- *   @link cache Cache topic @endlink for more information.
+ * @link cache Cache topic @endlink for more information.
  * - event_subscriber: Indicates an event subscriber service. Event subscribers
  *   can be used for dynamic routing and route altering; see the
- *   @link menu Menu and routing system topic @endlink for more information.
+ * @link menu Menu and routing system topic @endlink for more information.
  *   They can also be used for other purposes; see
  *   http://symfony.com/doc/current/cookbook/doctrine/event_listeners_subscribers.html
  *   for more information.
@@ -2568,13 +2582,13 @@ function hook_validation_constraint_alter(array &$definitions) {
  * @section sec_subscribe Registering event subscribers
  * Here are the steps to register an event subscriber:
  * - Define a service in your module, tagged with 'event_subscriber' (see the
- *   @link container Services topic @endlink for instructions).
+ * @link container Services topic @endlink for instructions).
  * - Define a class for your subscriber service that implements
  *   \Symfony\Component\EventDispatcher\EventSubscriberInterface
  * - In your class, the getSubscribedEvents method returns a list of the events
  *   this class is subscribed to, and which methods on the class should be
  *   called for each one. Example:
- *   @code
+ * @code
  *   public static function getSubscribedEvents() {
  *     // Subscribe to kernel terminate with priority 100.
  *     $events[KernelEvents::TERMINATE][] = array('onTerminate', 100);
@@ -2582,7 +2596,7 @@ function hook_validation_constraint_alter(array &$definitions) {
  *     $events[KernelEvents::REQUEST][] = array('onRequest');
  *     return $events;
  *   }
- *   @endcode
+ * @endcode
  * - Write the methods that respond to the events; each one receives the
  *   event object provided in the dispatch as its one argument. In the above
  *   example, you would need to write onTerminate() and onRequest() methods.
