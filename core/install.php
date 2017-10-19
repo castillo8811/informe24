@@ -26,8 +26,8 @@ define('MAINTENANCE_MODE', 'install');
 // yet available. It is defined in bootstrap.inc, but it is not possible to
 // load that file yet as it would cause a fatal error on older versions of PHP.
 if (version_compare(PHP_VERSION, '5.5.9') < 0) {
-  print 'Your PHP installation is too old. Drupal requires at least PHP 5.5.9. See the <a href="https://www.drupal.org/requirements">system requirements</a> page for more information.';
-  exit;
+    print 'Your PHP installation is too old. Drupal requires at least PHP 5.5.9. See the <a href="https://www.drupal.org/requirements">system requirements</a> page for more information.';
+    exit;
 }
 
 // Initialize the autoloader.
@@ -35,8 +35,8 @@ $class_loader = require_once $root_path . '/autoload.php';
 
 // If OPCache is in use, ensure opcache.save_comments is enabled.
 if (OpCodeCache::isEnabled() && !ini_get('opcache.save_comments')) {
-  print 'Systems with OPcache installed must have <a href="http://php.net/manual/en/opcache.configuration.php#ini.opcache.save-comments">opcache.save_comments</a> enabled.';
-  exit();
+    print 'Systems with OPcache installed must have <a href="http://php.net/manual/en/opcache.configuration.php#ini.opcache.save-comments">opcache.save_comments</a> enabled.';
+    exit();
 }
 
 // Start the installer.
